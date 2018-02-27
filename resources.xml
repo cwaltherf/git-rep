@@ -1,6 +1,6 @@
 <project>
  
-  <node name="192.168.1.86" description="Rundeck server node" tags="" hostname="192.168.1.86" osArch="x86_64" osFamily="unix" osName="Linux" osVersion="3.10.0.693.e17.x86_64" username="cristian"/>
+  <node name="192.168.1.86" description="Rundeck server node" tags="ubuntu, centos" hostname="192.168.1.86" osArch="x86_64" osFamily="unix" osName="Linux" osVersion="3.10.0.693.e17.x86_64" username="cristian"/>
   
 </project>
 
