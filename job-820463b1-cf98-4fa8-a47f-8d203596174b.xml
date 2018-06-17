@@ -10,7 +10,7 @@
     <scheduleEnabled>true</scheduleEnabled>
     <sequence keepgoing='false' strategy='node-first'>
       <command>
-        <exec>ls -lt</exec>
+        <exec>ls -lta</exec>
       </command>
     </sequence>
     <uuid>820463b1-cf98-4fa8-a47f-8d203596174b</uuid>
