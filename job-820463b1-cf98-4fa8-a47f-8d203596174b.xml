@@ -5,12 +5,12 @@
     <executionEnabled>true</executionEnabled>
     <id>820463b1-cf98-4fa8-a47f-8d203596174b</id>
     <loglevel>INFO</loglevel>
-    <name>prueba</name>
+    <name>prueba cambio</name>
     <nodeFilterEditable>false</nodeFilterEditable>
     <scheduleEnabled>true</scheduleEnabled>
     <sequence keepgoing='false' strategy='node-first'>
       <command>
-        <exec>ls -lta</exec>
+        <exec>uname -a</exec>
       </command>
     </sequence>
     <uuid>820463b1-cf98-4fa8-a47f-8d203596174b</uuid>
