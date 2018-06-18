@@ -7,8 +7,10 @@
     <name>test_scm_mlatour_dir</name>
     <nodeFilterEditable>false</nodeFilterEditable>
     <scheduleEnabled>true</scheduleEnabled>
-    <sequence>
-      <command />
+    <sequence keepgoing='false' strategy='node-first'>
+      <command>
+        <exec>ls -l</exec>
+      </command>
     </sequence>
   </job>
 </joblist>
