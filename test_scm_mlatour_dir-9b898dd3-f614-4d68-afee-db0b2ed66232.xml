@@ -1,7 +1,7 @@
 <joblist>
   <job>
     <defaultTab>summary</defaultTab>
-    <description></description>
+    <description>modification for import dir mlatour</description>
     <executionEnabled>true</executionEnabled>
     <loglevel>INFO</loglevel>
     <name>test_scm_mlatour_dir</name>
@@ -9,7 +9,7 @@
     <scheduleEnabled>true</scheduleEnabled>
     <sequence keepgoing='false' strategy='node-first'>
       <command>
-        <exec>ls -l</exec>
+        <exec>hostname</exec>
       </command>
     </sequence>
   </job>
