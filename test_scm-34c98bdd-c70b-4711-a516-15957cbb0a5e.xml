@@ -9,7 +9,7 @@
     <scheduleEnabled>true</scheduleEnabled>
     <sequence keepgoing='false' strategy='node-first'>
       <command>
-        <exec>hostname</exec>
+        <exec>ls -ltr</exec>
       </command>
     </sequence>
   </job>
