@@ -1,0 +1,16 @@
+<joblist>
+  <job>
+    <defaultTab>summary</defaultTab>
+    <description>prueba 2 modificacion desde github</description>
+    <executionEnabled>true</executionEnabled>
+    <loglevel>INFO</loglevel>
+    <name>test_scm</name>
+    <nodeFilterEditable>false</nodeFilterEditable>
+    <scheduleEnabled>true</scheduleEnabled>
+    <sequence keepgoing='false' strategy='node-first'>
+      <command>
+        <exec>ls -ltr</exec>
+      </command>
+    </sequence>
+  </job>
+</joblist>
