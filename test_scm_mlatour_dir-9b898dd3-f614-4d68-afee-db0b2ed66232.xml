@@ -9,7 +9,7 @@
     <scheduleEnabled>true</scheduleEnabled>
     <sequence keepgoing='false' strategy='node-first'>
       <command>
-        <exec>ls -lta</exec>
+        <exec>mkdir directorio</exec>
       </command>
     </sequence>
   </job>
