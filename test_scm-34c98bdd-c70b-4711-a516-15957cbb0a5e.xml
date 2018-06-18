@@ -1,7 +1,7 @@
 <joblist>
   <job>
     <defaultTab>summary</defaultTab>
-    <description></description>
+    <description>prueba modificacion desde github</description>
     <executionEnabled>true</executionEnabled>
     <loglevel>INFO</loglevel>
     <name>test_scm</name>
@@ -9,7 +9,7 @@
     <scheduleEnabled>true</scheduleEnabled>
     <sequence keepgoing='false' strategy='node-first'>
       <command>
-        <exec>ls -l</exec>
+        <exec>ls -lta</exec>
       </command>
     </sequence>
   </job>
