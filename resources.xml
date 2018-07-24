@@ -1,11 +1,5 @@
 <project>
  
- <!-- <node name="192.168.1.86" description="Rundeck server node" tags="ubuntu, centos" hostname="192.168.1.86" osArch="x86_64" osFamily="unix" osName="" osVersion="" username="cristian"/> -->
-  <!--<node name="192.168.1.81" description="nodo centos" tags="nodob, centos" hostname="192.168.1.86" osArch="x86_64" osFamily="" osName="" osVersion="3.10.0.693.e17.x86_64" username="cristian"/> -->
-  
- <!-- <node name="192.168.1.83" description="Win clone cambio1" tags="Windows" hostname="192.168.1.83" username="cristian"/> -->
-  
-  <!--<node name="localhost" description="Rundeck server node" tags="ubuntu, centos" hostname="localhost" osArch="x86_64" osFamily="unix" osName="" osVersion="" username="cwf"/> -->
   <node name="192.168.1.98" description="Rundeck node" tags="" hostname="192.168.1.98" osArch="x86_64" osFamily="unix" osName="" osVersion="" username="cwf"/>
   
 </project>
