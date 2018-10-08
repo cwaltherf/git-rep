@@ -1,6 +1,0 @@
-<project>
- 
-  <node name="192.168.1.98" description="Rundeck node" tags="" hostname="192.168.1.98" osArch="x86_64" osFamily="unix" osName="" osVersion="" username="cwf"/>
-    <node name="cwf-Inspiron-15-7000-Gaming" description="Rundeck server node" tags="" hostname="cwf-Inspiron-15-7000-Gaming" osArch="amd64" osFamily="unix" osName="Linux" osVersion="4.15.0-33-generic" username="cwf"/>
-</project>
-
