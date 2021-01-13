@@ -1,0 +1,48 @@
+<joblist>
+  <job>
+    <context>
+      <options preserveOrder='true'>
+        <option name='mipass' secure='true' storagePath='keys/test' valueExposed='true' />
+      </options>
+    </context>
+    <defaultTab>nodes</defaultTab>
+    <description></description>
+    <executionEnabled>true</executionEnabled>
+    <id>c0cf509b-5f5f-49e4-83e6-c68f4e56496e</id>
+    <loglevel>INFO</loglevel>
+    <name>job 1</name>
+    <nodeFilterEditable>false</nodeFilterEditable>
+    <plugins />
+    <scheduleEnabled>true</scheduleEnabled>
+    <schedules />
+    <sequence keepgoing='false' strategy='node-first'>
+      <command>
+        <plugins>
+          <LogFilter type='mask-passwords'>
+            <config>
+              <replacement>[SECURE]</replacement>
+            </config>
+          </LogFilter>
+          <LogFilter type='render-datatype'>
+            <config>
+              <datatype>application/json</datatype>
+              <sanitizeHtml>true</sanitizeHtml>
+              <striped>false</striped>
+            </config>
+          </LogFilter>
+        </plugins>
+        <script><![CDATA[fail
+cat /cris/rundeck_jars/rundeck335/test2.json
+fail
+
+
+echo "texto Random"
+
+echo @option.mipass@
+]]></script>
+        <scriptargs />
+      </command>
+    </sequence>
+    <uuid>c0cf509b-5f5f-49e4-83e6-c68f4e56496e</uuid>
+  </job>
+</joblist>
